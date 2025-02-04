@@ -1,0 +1,153 @@
+<!--
+Name: Niveditha Soorya Vishnu, Anoop Santhosh, Connor Marumoto
+Filename: Art.html
+Date: 2025-01-22
+Description: A webpage that shows upcoming art exhibits, artwork, visitor reviews, and a contact us tab.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Haven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, #6a82fb, #fc5c7d);            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .item {
+            background-color: #eee;
+            padding: 10px;
+            flex: 1 1 30%;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Haven</h1>
+        <nav>
+            <a href="#exhibitions">Exhibitions</a>
+            <a href="#collection">Our Collection</a>
+            <a href="#tables">Artworks and Artists</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="exhibitions">
+        <h2>Upcoming Exhibitions</h2>
+        <p>Check out our upcoming exhibitions!</p>
+    </section>
+    <section id="collection">
+        <h2>Our Collection</h2>
+        <div class="grid">
+            <div class="item">
+                <img src="art1.jpg" alt="Abstract Art">
+                <p>Abstract Art</p>
+            </div>
+            <div class="item">
+                <img src="art2.jpg" alt="Landscape Art">
+                <p>Landscape Art</p>
+            </div>
+            <div class="item">
+                <img src="art3.jpg" alt="Modern Art">
+                <p>Modern Art</p>
+            </div>
+        </div>
+    </section>
+ <!-- Art Haven - Tables Section -->
+ <style>
+    table, th, td {
+      border: 2.5px solid;
+      border-radius: 10px;
+      border-color:#fc5c7d82
+    }
+     th, td {
+      border-color:#6a82fb
+    }
+    </style>
+        <section id="tables">
+            <h2 style="font-size: 20.5;">Famous Artworks & Artists</h2>
+            <table  style="width:80%">
+                <caption style="font-size: 70";>Masterpieces in Art History</caption>
+                <thead>
+                    <tr>
+                        <th>Artwork</th>
+                        <th>Artist</th>
+                        <th>Year</th>
+                        <th>Style</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Mona Lisa</td><td>Leonardo da Vinci</td><td>1503</td><td>Renaissance</td></tr>
+                    <tr><td>Lady Godiva</td><td>John Maler Collier</td> <td>1898</td> <td>Pre-Raphaelites</td></tr>
+                    <tr><td>Skull with Burning Cigarette</td><td>Vincent van Gogh</td><td>1885</td><td>Post-Impressionism</td></tr>
+                    <tr><td>Love is in the Bin</td><td>Banksy</td><td>2018</td><td>subversive</td></tr>            
+                </tbody>
+            </table>
+        </section>
+    
+    <section id="reviews">
+        <h2>Visitor Reviews</h2>
+        <p>See what our visitors say!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Art Haven</p>
+    </footer>
+</body>
+</html>
+
+
+ 
