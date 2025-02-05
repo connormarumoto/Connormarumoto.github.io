@@ -69,6 +69,7 @@ Description: A webpage that shows upcoming art exhibits, artwork, visitor review
             <a href="#exhibitions">Exhibitions</a>
             <a href="#collection">Our Collection</a>
             <a href="#tables">Artworks and Artists</a>
+            <a href="#video">Featured Video</a>
             <a href="#reviews">Reviews</a>
             <a href="#contact">Contact</a>
         </nav>
