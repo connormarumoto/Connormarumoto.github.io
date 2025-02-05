@@ -125,7 +125,17 @@ Description: A webpage that shows upcoming art exhibits, artwork, visitor review
                 </tbody>
             </table>
         </section>
-    
+
+            <!-- Art Haven - Embedded Video Section -->
+    <section id="video">
+        <h2>Featured Video</h2>
+        <p>Watch a video on the importance of art!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UPk56BR1Cmk?si=9ApUPr0Z-d0nZwDY" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </section>
+
     <section id="reviews">
         <h2>Visitor Reviews</h2>
         <p>See what our visitors say!</p>
