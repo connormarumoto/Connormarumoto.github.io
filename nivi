@@ -76,7 +76,9 @@ Github Repo: https://github.com/connormarumoto/Connormarumoto.github.io
         </nav>
     </header>
     <section id="exhibitions">
-        <h2>Upcoming Exhibitions</h2>
+        <h2>
+            <img src="logo.png" alt="Art Haven Logo" style="height: 350px; vertical-align: middle;"> 
+            Upcoming Exhibitions</h2>
         <p>Check out our upcoming exhibitions!</p>
     </section>
     <section id="collection">
