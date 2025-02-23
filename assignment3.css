@@ -1,0 +1,153 @@
+/* General text styling */
+body {
+    font-family: 'BodyFont', serif;
+    font-size: 10px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'HeadingFont', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: hotpink;
+    border-bottom: 10px dotted purple;
+}
+
+h2 {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+section p:first-of-type {
+    text-indent: 20px;
+}
+
+/* Link styling */
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:focus, a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:active {
+    color: #f00;
+    font-weight: bold;
+}
+
+/* List styling */
+ul {
+    list-style-type: disc;
+    line-height: 1.6;
+    padding: 10px;
+    margin: 1em 0;
+}
+
+ul.contact-details {
+    background-color: #eeeeee;
+    border: 5px solid purple;
+    padding: 10px;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Display items in a row with equal space */
+    position: -webkit-sticky; /* Stick the nav to the top when it reaches there */
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Ensure it has a background when scrolling */
+}
+
+nav ul li {
+    margin: 1em 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2980b9;
+}
+
+/* Fancy box styling */
+.fancy-box {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.125rem; /* 1.125 rem = 18 pixels, as 1 rem = 16 pixels */
+    text-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    border: 1px solid #2980b9;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%, rgba(0,0,0,0.2) 100%);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3), inset 2px 2px 5px rgba(255,255,255,0.3), inset -2px -2px 5px rgba(0,0,0,0.3);
+}
+
+/* Article and aside two-column layout */
+main {
+    display: flex;
+    flex-direction: column; /* Ensure the main content is in a column layout */
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap; /* Allow the columns to adjust in size */
+}
+
+article {
+    flex: 1 1 60%; /* Flexible size, 60% of available space */
+    padding: 10px;
+}
+
+aside {
+    flex: 1 1 40%; /* Flexible size, 40% of available space */
+    padding: 10px;
+}
+
+/* Image inside article with text wrap */
+article img {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+/* Photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column grid */
+    gap: 1px; /* 1 pixel gap between images */
+}
+
+.photo-grid img {
+    width: 100%;
+}
